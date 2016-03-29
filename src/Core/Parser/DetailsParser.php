@@ -24,14 +24,15 @@ class DetailsParser extends AbstractParser
         $place = array(
             'place_id'      => $data->result->place_id,
             'name'          => $data->result->name,
-            'address'       => $data->result->formatted_address,
-            'phone_no'      => $data->result->formatted_phone_number,
-            'coords'        => $this->getCoords($data->result->geometry),
-            'website'       => $data->result->website,
-            'ratings_total' => $data->result->user_ratings_total,
-            'url'           => $data->result->url,
-            'rating'        => $data->result->rating,
-            'reviews'       => $this->getReviews($data->result->reviews)
+            'address'       => isset($data->result->formatted_address) ? $data->result->formatted_address : '',
+            'phone_no'      => isset($data->result->formatted_phone_number) ? $data->result->formatted_phone_number : '',
+            'lat'           => $data->result->geometry->location->lat,
+            'lng'           => $data->result->geometry->location->lng,
+            'website'       => isset($data->result->website) ? $data->result->website : '',
+            'ratings_total' => isset($data->result->user_ratings_total) ? $data->result->user_ratings_total : '',
+            'url'           => isset($data->result->url) ? $data->result->url : '',
+            'rating'        => isset($data->result->rating) ? $data->result->rating : '',
+            'reviews'       => isset($data->result->reviews) ? $this->getReviews($data->result->reviews) : ''
         );
 
         return json_encode($place);

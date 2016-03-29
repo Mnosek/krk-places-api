@@ -28,8 +28,9 @@ class NearbySearchParser extends AbstractParser
                 'place_id' => $result->place_id,
                 'name'     => $result->name,
                 'vicinity' => $result->vicinity,
-                'rating'   => isset($result->rating) ? $result->rating : false,
-                'coords' => $this->getCoords($result->geometry)
+                'rating'   => isset($result->rating) ? $result->rating : '',
+                'lat'      => $result->geometry->location->lat,
+                'lng'      => $result->geometry->location->lng,
             );
             array_push($places, $place);
         }

@@ -6,26 +6,13 @@ use Exception;
 
 class AbstractParserTest extends \PHPUnit_Framework_TestCase
 {
-    public function testGetCoords()
-    {
-        $parser = $this->getMockForAbstractClass('\Core\Parser\AbstractParser');
-
-        $data = new stdClass;
-        $data->location = new stdClass;
-        $data->location->lat = '50.2323';
-        $data->location->lng = '23.3545';
-
-        $this->assertEquals($parser->getCoords($data), '50.2323,23.3545');
-    }
-
-
-
     public function testEmptyData()
     {
         $this->setExpectedException('RuntimeException');
         $stub = $this->getMockForAbstractClass('\Core\Parser\AbstractParser');
         $stub->checkStatus(new stdClass());
     }
+
 
     public function testInvalidStatus()
     {

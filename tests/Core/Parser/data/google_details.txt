@@ -1,0 +1,225 @@
+{
+	"html_attributions": [],
+	"result": {
+		"address_components": [{
+			"long_name": "3",
+			"short_name": "3",
+			"types": ["street_number"]
+		}, {
+			"long_name": "Pawia",
+			"short_name": "Pawia",
+			"types": ["route"]
+		}, {
+			"long_name": "Kraków",
+			"short_name": "Kraków",
+			"types": ["locality", "political"]
+		}, {
+			"long_name": "Kraków",
+			"short_name": "Kraków",
+			"types": ["administrative_area_level_3", "political"]
+		}, {
+			"long_name": "Kraków",
+			"short_name": "Kraków",
+			"types": ["administrative_area_level_2", "political"]
+		}, {
+			"long_name": "małopolskie",
+			"short_name": "małopolskie",
+			"types": ["administrative_area_level_1", "political"]
+		}, {
+			"long_name": "Poland",
+			"short_name": "PL",
+			"types": ["country", "political"]
+		}, {
+			"long_name": "31-154",
+			"short_name": "31-154",
+			"types": ["postal_code"]
+		}],
+		"adr_address": "\u003cspan class=\"street-address\"\u003ePawia 3\u003c/span\u003e, \u003cspan class=\"postal-code\"\u003e31-154\u003c/span\u003e \u003cspan class=\"locality\"\u003eKraków\u003c/span\u003e, \u003cspan class=\"country-name\"\u003ePoland\u003c/span\u003e",
+		"formatted_address": "Pawia 3, 31-154 Kraków, Poland",
+		"formatted_phone_number": "12 660 01 00",
+		"geometry": {
+			"access_points": [{
+				"location": {
+					"lat": 50.0656318,
+					"lng": 19.9450809
+				},
+				"travel_modes": ["DRIVING", "BICYCLING", "WALKING", "TRANSIT"]
+			}],
+			"location": {
+				"lat": 50.065624,
+				"lng": 19.945442
+			}
+		},
+		"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+		"id": "d361d4e282ac5569d0f12a9a3c6b3b844e2cbbe4",
+		"international_phone_number": "+48 12 660 01 00",
+		"name": "andel's by Vienna House Cracow",
+		"opening_hours": {
+			"open_now": true,
+			"periods": [{
+				"open": {
+					"day": 0,
+					"time": "0000"
+				}
+			}],
+			"weekday_text": [
+				"Monday: Open 24 hours",
+				"Tuesday: Open 24 hours",
+				"Wednesday: Open 24 hours",
+				"Thursday: Open 24 hours",
+				"Friday: Open 24 hours",
+				"Saturday: Open 24 hours",
+				"Sunday: Open 24 hours"
+			]
+		},
+		"photos": [{
+			"height": 2358,
+			"html_attributions": [
+				"\u003ca href=\"https://maps.google.com/maps/contrib/100004286453129297407/photos\"\u003eAlfred Wilhelm Meier\u003c/a\u003e"
+			],
+			"photo_reference": "CoQBcwAAAEWlMyKiGCNN1K7HaRgn6EB3p3bRs5-qLrer4yZiZAPcIzM5Ye0bWq3FkcmHuezGTKJ4cniMQRmaOJibIHUybs0Yhf7LMOGiDH57hJcb-4QG9NhItmFuYrA3a8VdRgbjfcjNdlsoDQ8stOM_vRXX5LOxgfJPkQe01c4FXLRdl5YCEhAIbgAbKjPDGL-4ibq43KbBGhQQ2NYrEbq6o5Da3Y-P5J7O-t84zw",
+			"width": 4191
+		}, {
+			"height": 1325,
+			"html_attributions": [
+				"\u003ca href=\"https://maps.google.com/maps/contrib/109153359019699041609/photos\"\u003eandel&#39;s by Vienna House Cracow\u003c/a\u003e"
+			],
+			"photo_reference": "CmRdAAAAsUvPhXWLdsuDDgxo5cgqOEcGkmLVMV0D8S7h2tWpAOpBR9akPvo5e_qeeAEDfJhR7saeXiNq5jpA9WjFrbryPUdMzLhZ-SxmrEFNDFaCC4zqC-aqjmCi0frpchjTjXCiEhADnVvjF6tiDybfuqcVX_8JGhT79p1qbNLgGZzEBGwY3w0H5AJj7A",
+			"width": 2048
+		}, {
+			"height": 1258,
+			"html_attributions": [
+				"\u003ca href=\"https://maps.google.com/maps/contrib/109153359019699041609/photos\"\u003eandel&#39;s by Vienna House Cracow\u003c/a\u003e"
+			],
+			"photo_reference": "CmRdAAAAx-h5svRqOP9Whe3yeszbcKL3_KqRf9ROjuaBjn2ydCL4zucx02S5NB2qb8t7oPWWaRzk_rx9wom41mHcHpKLo_AeJ2-PxAQyaKH2gqNvRhLzO_stMOkdv0lUH00sTb9dEhCgs8wp1MfTKtm3WuraR55rGhQiKDo52sP2cgjYSx0slP5m92GE9A",
+			"width": 2048
+		}, {
+			"height": 1358,
+			"html_attributions": [
+				"\u003ca href=\"https://maps.google.com/maps/contrib/109153359019699041609/photos\"\u003eandel&#39;s by Vienna House Cracow\u003c/a\u003e"
+			],
+			"photo_reference": "CmRdAAAAbgB9dvk-YEG6CzPYFUaBzP3A8LsqHwcZrWT-XJ5P-TqxMPupe9PHC_C3-Ym71een2AQIFryXzB6CaOfqHh_LtnHYc_PKxecXPc-AAbisnzW4jPdz8JysPrzL_duUOdV5EhCmqGn1nWMb6EzzVxr4hLSLGhSIg14_DUXUtLJYmvoHGU2fyLHd2A",
+			"width": 2048
+		}, {
+			"height": 2123,
+			"html_attributions": [
+				"\u003ca href=\"https://maps.google.com/maps/contrib/100004286453129297407/photos\"\u003eAlfred Wilhelm Meier\u003c/a\u003e"
+			],
+			"photo_reference": "CoQBcwAAAGR40kCZs9KZodwa7qmU3VwRnF4pxVoskg8F93VmZFol-6DOkSAHJD3KjrxnmiytB8QSmxYGIYaRAAyfosZ4yVuHGueIZuT44RhoVG2nKj_Y8PwxDqyotXciRuI3trlbVhvjReWPlz5b6ngLQSIi1Ee0Ymk2UijjL6X8MCSG1YLyEhCjUOGSqSI5wouejSW4S6fdGhTeRD48w0d1befSsRfFMLNqGLvX6g",
+			"width": 3198
+		}, {
+			"height": 414,
+			"html_attributions": [
+				"\u003ca href=\"https://maps.google.com/maps/contrib/109153359019699041609/photos\"\u003eandel&#39;s by Vienna House Cracow\u003c/a\u003e"
+			],
+			"photo_reference": "CmRdAAAAIwsfA4-GLhmcuLVe1kH4mXKw9PbjmEULQy4jLUs9eN13MmBLJ0hp2e4MtVubUQcP1VA4Xfz7GqPIyVoYCqtNUXCtMJy-bdKE9WN_eqt67nw9EXIO3121_0s0D-Brd-uuEhBbto5cHnnoiA0XXJ2tyrgrGhSD8ZyjropkhXzWZMmvJWuwzUjjAw",
+			"width": 500
+		}, {
+			"height": 1365,
+			"html_attributions": [
+				"\u003ca href=\"https://maps.google.com/maps/contrib/109153359019699041609/photos\"\u003eandel&#39;s by Vienna House Cracow\u003c/a\u003e"
+			],
+			"photo_reference": "CmRdAAAAFQfsi6gSbxAM3SZ66jSg1Mcc2VUj1DHIqQdyDbgrXfMmMvlo3K3mZPU76tHLOT4FVG8TnKNVKz8NxJvHdA4KVpmobCAEXJ1Qt4_qJ294Y9dmu5U7b3h55eQiqIp0XJTfEhAWcPL3kaTNfknqmPu4fZRqGhTaze2tuzBjCH0nQEI5jMoJeqgH6Q",
+			"width": 2048
+		}, {
+			"height": 2358,
+			"html_attributions": [
+				"\u003ca href=\"https://maps.google.com/maps/contrib/100004286453129297407/photos\"\u003eAlfred Wilhelm Meier\u003c/a\u003e"
+			],
+			"photo_reference": "CoQBcwAAAO63VxgYdCoawnCz33tgb4d0iGInVSQH_Vgf064mLq4gxNdAqNCaL_yLUV2pUBllbYZcY1IeZysoDK7iBF4guxkEdxgfQk9kb4NqmS6a3D9lYM3qeaoDFcHLEKq-De2bv7rKWom2R3FhkzTAIvEVf9B47CHA15xvrueA-4wx8rQAEhDFgoKPObLDqNDTCyit-jsRGhQFQnyBOZazYioGDVAeuN5n5SSg8w",
+			"width": 4191
+		}, {
+			"height": 1978,
+			"html_attributions": [
+				"\u003ca href=\"https://maps.google.com/maps/contrib/109153359019699041609/photos\"\u003eandel&#39;s by Vienna House Cracow\u003c/a\u003e"
+			],
+			"photo_reference": "CmRdAAAAB4aK8s3C4fQSyL5KbpXBLttj4J4GTQtK_LNspTIKztT_Mi9BHgo6_aT0t8zGo0Liz31w9gxhb50MFaAAtEALXmvvkbwebRZ25eEnpLj2Oz7ZZlgSP2nFQnzXYMQLdQ6vEhCA6pk8PnwCm7ggRvD-uTMpGhRz52Im1CJa-NfbUEBoO2W2siYRkQ",
+			"width": 1978
+		}, {
+			"height": 1382,
+			"html_attributions": [
+				"\u003ca href=\"https://maps.google.com/maps/contrib/109153359019699041609/photos\"\u003eandel&#39;s by Vienna House Cracow\u003c/a\u003e"
+			],
+			"photo_reference": "CmRdAAAAI8AkPaLF1svJRdPKSaIhgG7YHr9vz1q4tSBI6LP-Df-kGgcwOW8UwsDdTmKH70hbEjxkELtrsR_jWbC1Du4tGGVbfCa02wOsN8ZGRAooNRen2NseC_yOOynpxFHq5RpTEhA0GfFRvIoP06Nt0J_EDY-aGhSa4FaQ3trQLLV57ElNej1IrbZvoQ",
+			"width": 2048
+		}],
+		"place_id": "ChIJ8Tb4__8PFkcRwHm1b4IG3Zc",
+		"rating": 4.7,
+		"reference": "CoQBcgAAAHg9XDle67U7jE9U6XdX2mDaCkweIG5-EC4SvhIbCjt14yPrRuwp1MR2-Gc1kFiJ7upQpcDxh-sM-7Ki-2W5FLZOUlgjg-2Crt9bJKm8H0aLCtq5B321uNCsQA8hxSb-3s1_yb8At_dxgmXe1ry5n8ASClzDGDfi4VXMuqpUNO2TEhB1iOQ3yY5atnQQvw6sw7gXGhSWJtIMFdBIAjkmFE2PFGcuuFD-Hw",
+		"reviews": [{
+			"aspects": [{
+				"rating": 3,
+				"type": "overall"
+			}],
+			"author_name": "Rita Moloney",
+			"author_url": "https://plus.google.com/106877337001451661802",
+			"language": "en",
+			"profile_photo_url": "//lh5.googleusercontent.com/-xA4it3bozCA/AAAAAAAAAAI/AAAAAAAALRI/YACwZAdBXN8/photo.jpg",
+			"rating": 5,
+			"text": "The only fault we could find was the unpredictable access cards to lift and room. Other than that the whole stay was faultless and very enjoyable. Would definitely recommend and will most certainly return when next in Krakow. Many thanks",
+			"time": 1449940202
+		}, {
+			"aspects": [{
+				"rating": 3,
+				"type": "overall"
+			}],
+			"author_name": "Dave Patty",
+			"author_url": "https://plus.google.com/115429058710969201344",
+			"language": "en",
+			"profile_photo_url": "//lh3.googleusercontent.com/-Qg9diChSeI8/AAAAAAAAAAI/AAAAAAAAGsY/FB6gX6Q7oy4/photo.jpg",
+			"rating": 5,
+			"text": "We LOVE your hotel! The location is so convenient, your staff helpful and professional, the rooms comfortable and spotless, the restaurant amazing. Basically, you're the perfect hotel! Thank you!",
+			"time": 1454080205
+		}, {
+			"aspects": [{
+				"rating": 2,
+				"type": "overall"
+			}],
+			"author_name": "Alfred Wilhelm Meier",
+			"author_url": "https://plus.google.com/100004286453129297407",
+			"language": "en",
+			"profile_photo_url": "//lh3.googleusercontent.com/-Vz2v7Ll9eIs/AAAAAAAAAAI/AAAAAAAFigU/u19CRSUL4H0/photo.jpg",
+			"rating": 4,
+			"text": "Upscale place. Gold food. Still unreliable access Cards to rooms.",
+			"time": 1458974889
+		}, {
+			"aspects": [{
+				"rating": 3,
+				"type": "overall"
+			}],
+			"author_name": "Mandi Weymes",
+			"author_url": "https://plus.google.com/113341065864791993465",
+			"language": "en",
+			"profile_photo_url": "//lh4.googleusercontent.com/-yvN2VcERTzI/AAAAAAAAAAI/AAAAAAAAABM/_l4BQMG0kDo/photo.jpg",
+			"rating": 5,
+			"text": "This is an exceptionally excellent hotel.  First class and worthy of the 5 stars if not more.  I will definitely stay here again.",
+			"time": 1447974594
+		}, {
+			"aspects": [{
+				"rating": 3,
+				"type": "overall"
+			}],
+			"author_name": "Sia Van den Bremt",
+			"author_url": "https://plus.google.com/109137773474550133892",
+			"language": "en",
+			"rating": 5,
+			"text": "Modern hotel with very nice rooms and efficient and helpful service.",
+			"time": 1448544800
+		}],
+		"scope": "GOOGLE",
+		"types": [
+			"bar",
+			"restaurant",
+			"food",
+			"lodging",
+			"point_of_interest",
+			"establishment"
+		],
+		"url": "https://maps.google.com/?cid=10942909826869852608",
+		"user_ratings_total": 53,
+		"utc_offset": 120,
+		"vicinity": "Pawia 3, Kraków",
+		"website": "http://www.viennahouse.com/andels-cracow/"
+	},
+	"status": "OK"
+}

@@ -82,7 +82,7 @@ class ListPlaces extends AbstractAction implements Cacheable
 
         $params['type'] = self::API_PLACE_TYPE;
 
-        if ($params['location']) {
+        if (isset($params['location'])) {
                 $params['rankby'] = 'distance';
         } else {
             $params['radius']   = self::API_PLACE_RADIUS;

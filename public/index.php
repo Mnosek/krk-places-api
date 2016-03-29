@@ -8,14 +8,14 @@ use Core\Action\GetPlace;
 
 $app = new Micro();
 
-$app->get('/place', function () use ($app) {
+$app->get('/places', function () use ($app) {
     $params = $app->request->get();
     unset($params['_url']);
     $action = new ListPlaces($params);
     return $action->getResponse();
 });
 
-$app->get('/place/{id:[0-9a-zA-Z]+}', function ($id) {
+$app->get('/places/{id:[0-9a-zA-Z\_\-]+}', function ($id) {
     $params = ['placeid' => $id];
     $action = new GetPlace($params);
     return $action->getResponse();

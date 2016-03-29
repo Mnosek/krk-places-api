@@ -49,20 +49,6 @@ abstract class AbstractParser
 
 
     /**
-     * Returns coordinates from response
-     * @param  stdClass $geometry
-     * @return string
-     */
-    public function getCoords(stdClass $geometry)
-    {
-        $lat = $geometry->location->lat;
-        $lng = $geometry->location->lng;
-
-        return $lat . ',' . $lng;
-    }
-
-
-    /**
      * Should return parsed response
      * @param  mixed $data
      * @return string json encoded result
